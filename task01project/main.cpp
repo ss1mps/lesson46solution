@@ -25,6 +25,5 @@ int main() {
 
 	print("\nArithmetical mean is " + to_string(avg) + ".");
 
-
 	return 0;
 }
