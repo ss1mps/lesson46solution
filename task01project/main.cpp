@@ -20,5 +20,11 @@ int main() {
 
 	print("\nMax value is " + to_string(max) + ".");
 	print("\nMin value is " + to_string(min) + ".");
+
+	double avg = get_avg(array, size);
+
+	print("\nArithmetical mean is " + to_string(avg) + ".");
+
+
 	return 0;
 }
