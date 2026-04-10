@@ -22,8 +22,15 @@ int main() {
 	print("\nMin value is " + to_string(min) + ".");
 
 	double avg = get_avg(array, size);
+	double gvg = get_gvg(array, size);
 
 	print("\nArithmetical mean is " + to_string(avg) + ".");
+	print("\nGeometrical mean is " + to_string(gvg) + ".");
+
+	swap_extreme_elements(array, size);
+
+	print("\nAfter array: ");
+	print(convert(array, size));
 
 	return 0;
 }
